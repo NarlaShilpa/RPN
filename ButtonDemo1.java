@@ -10,6 +10,7 @@ public class ButtonDemo1 {
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		driver.manage().window().maximize();
 		WebElement loginButton= driver.findElement(By.xpath("//button[@name='login']"));
 		boolean actualButtonDispaly= loginButton.isDisplayed();
 		System.out.println(" actualButton is dispalyeing :"+ actualButtonDispaly);
