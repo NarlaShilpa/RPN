@@ -21,7 +21,10 @@ public class CheckBoxDemo1 {
 		System.out.println(" checkBox is dispalyeing :"+ actualCheckBoxDispalyed);
 		if(actualCheckBoxDispalyed== ExpectedCheckBoxDispalyed) 
 		{
-			System.out.println(" checkBox is isDisplayed"); 
+			System.out.println(" checkBox is isDisplayed"); 			
+			System.out.println(" checkBox is isDisplayed central repo"); 
+
+			
 
 		}
 		else 
